@@ -1,0 +1,74 @@
+{
+  "id": "local.bgimgchanger",
+  "name": "Background Image Changer",
+  "version": "1.0.0",
+  "description": "設定画面で背景画像を選び、不透明度・ぼかし・表示方法を変えられます。",
+  "main": "extension.js",
+  "permissions": {
+    "ui": true
+  },
+  "contributes": {
+    "settings": [
+      {
+        "id": "enabled",
+        "label": "背景画像を表示する",
+        "kind": "bool",
+        "default": true
+      },
+      {
+        "id": "image",
+        "label": "背景画像",
+        "kind": "file",
+        "hint": "png / jpeg / webp / gif / avif(12 MB まで)"
+      },
+      {
+        "id": "opacity",
+        "label": "不透明度",
+        "kind": "num",
+        "default": 0.35,
+        "min": 0.05,
+        "max": 1,
+        "step": 0.05
+      },
+      {
+        "id": "blur",
+        "label": "ぼかし",
+        "kind": "num",
+        "default": 0,
+        "min": 0,
+        "max": 30,
+        "step": 1
+      },
+      {
+        "id": "fit",
+        "label": "表示方法",
+        "kind": "enum",
+        "default": "cover",
+        "options": [
+          [
+            "cover",
+            "全体を埋める"
+          ],
+          [
+            "contain",
+            "全体を収める"
+          ],
+          [
+            "center",
+            "中央に原寸"
+          ],
+          [
+            "tile",
+            "並べる"
+          ]
+        ]
+      }
+    ],
+    "commands": [
+      {
+        "id": "toggle",
+        "title": "背景画像のオン・オフ"
+      }
+    ]
+  }
+}
