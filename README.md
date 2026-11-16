@@ -20,7 +20,16 @@ The command palette also has a "Toggle background image" command.
 
 ## Install
 
-Use Fixit 1.3.0 or later. Open "Extensions", choose "Install from folder", and select this folder. It is installed as an unverified extension, so check the requested permission and allow it.
+It is published on the official [extension page](https://fixit-editor.lapius7.com/en/extensions/lapius7.bgimgchanger) (verified). On Fixit 1.3.1 or later, install it either way:
+
+- In Fixit's "Extensions" screen, search for "bgimgchanger" under "Browse" and press "Install"
+- Press "Open in Fixit" on the extension page above (Fixit 1.4.0 or later)
+
+Check the requested permission and allow it before installing.
+
+### Try the development version
+
+To try what is in this repository, paste `https://github.com/Lapius7/fixiteditor-bgimgchanger` into the search box of Fixit's "Extensions" screen (Fixit 1.4.0 or later) and press "Fetch". It is treated as unverified, with no review or signature.
 
 ## Permissions
 
