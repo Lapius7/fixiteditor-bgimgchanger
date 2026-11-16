@@ -1,23 +1,31 @@
 # Background Image Changer
 
-Fixit Editor の背景に好きな画像を置く拡張機能です。設定画面から、画像・不透明度・ぼかし・表示方法を変えられます。
+[日本語](README.ja.md)
 
-## 設定
+An extension for [Fixit Editor](https://fixit-editor.lapius7.com/) that puts an image of your choice behind the editor. From the settings screen you can change the image, its opacity, blur, and how it fits.
 
-| 項目 | 内容 |
+Extension id: `lapius7.bgimgchanger` · [Extension page](https://fixit-editor.lapius7.com/en/extensions/lapius7.bgimgchanger)
+
+## Settings
+
+| Setting | Description |
 |---|---|
-| 背景画像を表示する | 画像を出すかどうか |
-| 背景画像 | png / jpeg / webp / gif / avif(12 MB まで)。「外す」で画像を消す |
-| 不透明度 | 0.05〜1 |
-| ぼかし | 0〜30 |
-| 表示方法 | 全体を埋める / 全体を収める / 中央に原寸 / 並べる |
+| Show background image | Turn the image on or off |
+| Background image | png / jpeg / webp / gif / avif, up to 12 MB. "Remove" clears the image |
+| Opacity | 0.05 to 1 |
+| Blur | 0 to 30 |
+| Fit | Cover / Contain / Original size, centered / Tile |
 
-コマンドパレットから「背景画像のオン・オフ」も使えます。
+The command palette also has a "Toggle background image" command.
 
-## 入れ方
+## Install
 
-Fixit 1.3.0 以降の「拡張機能」画面で「フォルダから入れる」を選び、このフォルダを指定します。未認証の拡張機能として入るので、求める権限(画面の変更)を確かめて許可してください。
+Use Fixit 1.3.0 or later. Open "Extensions", choose "Install from folder", and select this folder. It is installed as an unverified extension, so check the requested permission and allow it.
 
-## 権限
+## Permissions
 
-`ui`(画面の変更)だけです。ネットワークやファイルの読み書きはしません。画像は本体が管理し、この拡張機能は画像そのものを読みません。
+Only `ui` (changing how the screen looks). It does not use the network or read or write files. Fixit manages the image itself, and this extension never reads the image.
+
+## License
+
+[MIT](LICENSE)
