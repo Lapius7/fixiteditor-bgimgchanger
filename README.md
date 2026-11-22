@@ -1,8 +1,31 @@
-# Background Image Changer
+<div align="center">
 
-[日本語](README.ja.md)
+<p align="center">
+  <img src="docs/images/banner.png" alt="Background Image Changer" width="100%">
+</p>
 
-An extension for [Fixit Editor](https://fixit-editor.lapius7.com/) that puts an image of your choice behind the editor. From the settings screen you can change the image, its opacity, blur, and how it fits.
+<p align="center"><b>English</b> | <a href="README.ja.md">日本語</a></p>
+
+<h1 align="center">Background Image Changer</h1>
+
+<h3 align="center">Put an image of your choice behind Fixit Editor.</h3>
+
+<p align="center">An extension for <a href="https://fixit-editor.lapius7.com/">Fixit Editor</a>. From the settings screen you can change the image, its opacity, blur, and how it fits.</p>
+
+<p align="center">
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/github/license/Lapius7/fixiteditor-bgimgchanger?style=flat-square&color=97ca00"></a>
+  <a href="https://fixit-editor.lapius7.com/"><img alt="Fixit Editor extension" src="https://img.shields.io/badge/Fixit%20Editor-extension-0078d4?style=flat-square"></a>
+  <a href="https://github.com/Lapius7/fixiteditor-bgimgchanger/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Lapius7/fixiteditor-bgimgchanger?style=flat-square&color=e3b341&logo=github"></a>
+  <a href="https://github.com/Lapius7/fixiteditor-bgimgchanger/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/Lapius7/fixiteditor-bgimgchanger?style=flat-square&color=3b82f6"></a>
+</p>
+
+<p align="center">
+  <a href="#settings">Settings</a> · <a href="#install">Install</a> · <a href="#permissions">Permissions</a>
+</p>
+
+</div>
+
+---
 
 Extension id: `lapius7.bgimgchanger` · [Extension page](https://fixit-editor.lapius7.com/en/extensions/lapius7.bgimgchanger)
 
