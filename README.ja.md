@@ -1,8 +1,31 @@
-# Background Image Changer
+<div align="center">
 
-[English](README.md)
+<p align="center">
+  <img src="docs/images/banner.png" alt="Background Image Changer" width="100%">
+</p>
 
-[Fixit Editor](https://fixit-editor.lapius7.com/) の背景に好きな画像を置く拡張機能です。設定画面から、画像・不透明度・ぼかし・表示方法を変えられます。
+<p align="center"><a href="README.md">English</a> | <b>日本語</b></p>
+
+<h1 align="center">Background Image Changer</h1>
+
+<h3 align="center">Fixit Editor の背景に、好きな画像を置く。</h3>
+
+<p align="center"><a href="https://fixit-editor.lapius7.com/">Fixit Editor</a> の拡張機能です。設定画面から、画像・不透明度・ぼかし・表示方法を変えられます。</p>
+
+<p align="center">
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/github/license/Lapius7/fixiteditor-bgimgchanger?style=flat-square&color=97ca00"></a>
+  <a href="https://fixit-editor.lapius7.com/"><img alt="Fixit Editor extension" src="https://img.shields.io/badge/Fixit%20Editor-extension-0078d4?style=flat-square"></a>
+  <a href="https://github.com/Lapius7/fixiteditor-bgimgchanger/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Lapius7/fixiteditor-bgimgchanger?style=flat-square&color=e3b341&logo=github"></a>
+  <a href="https://github.com/Lapius7/fixiteditor-bgimgchanger/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/Lapius7/fixiteditor-bgimgchanger?style=flat-square&color=3b82f6"></a>
+</p>
+
+<p align="center">
+  <a href="#設定">設定</a> · <a href="#入れ方">入れ方</a> · <a href="#権限">権限</a>
+</p>
+
+</div>
+
+---
 
 拡張機能の id: `lapius7.bgimgchanger` · [拡張機能のページ](https://fixit-editor.lapius7.com/ja/extensions/lapius7.bgimgchanger)
 
